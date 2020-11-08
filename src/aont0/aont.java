@@ -1,4 +1,4 @@
-//encryption and then AONT in serial
+//AONT then encryption in serial
 package aont0;
 import aont0.aes_gcm;
 import aont0.CryptoUtils;
@@ -11,7 +11,7 @@ public class aont {
 	
 	public static void main(String[] args) throws Exception{
 		long startTime = System.nanoTime();
-		String filePath = "/home/yeeman/Documents/100MB.txt";
+		String filePath = "/home/yeeman/Documents/2000MB.txt";
 		
 		// encrypt and decrypt need the same key.
         // get AES 256 bits (32 bytes) key
